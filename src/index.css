@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@keyframes slide-bg {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+
+  /* index.css */
+/* index.css */
+.my-custom-bg {
+  background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
